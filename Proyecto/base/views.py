@@ -80,3 +80,5 @@ def schedule_deletion(request):
         user.save()
         return redirect('home')  # Redirect to home or another page after scheduling
     return render(request, 'profile.html')
+
+def
